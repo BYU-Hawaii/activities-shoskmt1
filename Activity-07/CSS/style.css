@@ -1,0 +1,23 @@
+body {background-color: #e3ebf1;
+}
+
+header {background-color: #770352;
+}
+
+section {margin:0 auto; width: 80%;
+}
+
+footer {background-color: #3e260b;
+}
+
+#shortboardpic {width: 100%; border-radius: 15px; border: 3px solid black; box-shadow: 15px 15px 15px grey;
+}
+
+h1 {color:antiquewhite;text-align: center;
+}
+
+h3 {color:antiquewhite;text-align: center;
+}
+
+.highlight {background-color: #590b46;color:antiquewhite;text-align: center;
+}
