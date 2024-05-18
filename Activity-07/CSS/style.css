@@ -2,14 +2,15 @@
 body {background-color: #e3ebf1;
 }
 
-header {background-color: #770352;
+/* Styling for the header */
+header {background-color: #770352; border-radius: 15px;
 }
 
-/* Styling for the width */
 section {margin:0 auto; width: 100%;
 }
 
-footer {background-color: #3e260b;
+/* Styling for the footer */
+footer {background-color: #3e260b; border: 3px solid black;
 }
 
 /* Styling for the picture */
@@ -22,5 +23,6 @@ h1 {color:antiquewhite;text-align: center;
 h3 {color:antiquewhite;text-align: center;
 }
 
-.highlight {background-color: #590b46;color:antiquewhite;text-align: center;
+/* Styling for the highlight */
+.highlight {background-color: #590b46;color:antiquewhite;text-align: center; border-radius: 15px;
 }
