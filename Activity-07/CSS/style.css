@@ -2,6 +2,11 @@
 body {background-color: #e3ebf1;
 }
 
+/* Google font */
+body {
+    font-family: Arial;
+  }
+
 /* Styling for the header */
 header {background-color: #770352; border-radius: 15px;
 }
