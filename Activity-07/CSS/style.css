@@ -1,15 +1,18 @@
+/* Styling for the background */
 body {background-color: #e3ebf1;
 }
 
 header {background-color: #770352;
 }
 
-section {margin:0 auto; width: 80%;
+/* Styling for the width */
+section {margin:0 auto; width: 100%;
 }
 
 footer {background-color: #3e260b;
 }
 
+/* Styling for the picture */
 #shortboardpic {width: 100%; border-radius: 15px; border: 3px solid black; box-shadow: 15px 15px 15px grey;
 }
 
