@@ -1,0 +1,18 @@
+/* Styling for the background */
+body {background-color: #338FFF58;
+}
+
+/* Google font */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+/* Styling for the picture */
+#mountainpic {width: 100%; border-radius: 15px; 
+}
+
+h1 {color:#00408F;text-align: center;
+}
+
+h6 {color:#00408F;text-align: center;
+}
