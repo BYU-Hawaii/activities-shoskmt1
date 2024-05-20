@@ -1,18 +1,26 @@
 /* Styling for the background */
-body {background-color: #338FFF58;
+body {
+  background-color: #b6ad4f58;
 }
 
 /* Google font */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-  }
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 /* Styling for the picture */
-#mountainpic {width: 100%; border-radius: 15px; 
+#pic {
+  width: 100%; border-radius: 15px;
 }
 
-h1 {color:#00408F;text-align: center;
+h1 {
+  color:#c82318;text-align: center;
 }
 
-h6 {color:#00408F;text-align: center;
+figcaption{
+  color:#c82318;text-align: center;
+}
+
+h6 {
+  color:#c82318;text-align: center;
 }
