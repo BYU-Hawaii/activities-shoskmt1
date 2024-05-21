@@ -3,14 +3,14 @@ body {
   background-color: #b6ad4f58;
 }
 
-/* Google font */
-body {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 /* Styling for the picture */
 #pic {
   width: 100%; border-radius: 15px;
+}
+
+/* font */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -23,4 +23,34 @@ figcaption{
 
 h6 {
   color:#c82318;text-align: center;
+}
+
+/* menu bar (code from w3schools)*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c82318;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #621111;
+}
+
+.active {
+  background-color: #621111;
 }
