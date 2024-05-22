@@ -1,11 +1,13 @@
 /* Styling for the background */
 body {
+  background-image: url("bamboo-807674_640.jpg");
   background-color: #b6ad4f58;
 }
 
+
 /* Styling for the picture */
 #pic {
-  width: 100%; border-radius: 15px;
+  width: 650; border-radius: 15px;
 }
 
 /* font */
@@ -26,7 +28,7 @@ h6 {
 }
 
 /* menu bar (code from w3schools)*/
-ul {
+#menubar {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,11 +36,11 @@ ul {
   background-color: #c82318;
 }
 
-li {
+#menubar li {
   float: left;
 }
 
-li a {
+#menubar li a {
   display: block;
   color: white;
   text-align: center;
@@ -47,10 +49,12 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#menubar li a:hover {
   background-color: #621111;
 }
 
-.active {
-  background-color: #621111;
+
+#notmenu {
+  list-style-type:circle;
+  color: #c82318;
 }
