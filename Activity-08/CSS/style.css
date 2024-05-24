@@ -1,0 +1,38 @@
+/* menu bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #535151;
+  }
+
+/* background */
+body {
+    background-color: #1f1d2cf5;
+  }  
+
+  /* font */
+body {
+    font-family: Arial, sans-serif;
+  }
+
+h1 {
+    color:#ffffff;text-align: center;
+}
