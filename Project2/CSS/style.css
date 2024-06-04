@@ -1,0 +1,62 @@
+/* Styling for the background */
+body {
+  background-color: #b6ad4f58;
+}
+
+
+/* Styling for the picture (code from w3schools)*/
+#pic {
+  width: 30%; border-radius: 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* font */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  color:#c82318;text-align: center;
+}
+
+figcaption{
+  color:#c82318;text-align: center;
+}
+
+h6 {
+  color:#c82318;text-align: center;
+}
+
+/* menu bar (code from w3schools)*/
+#menubar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c82318;
+}
+
+#menubar li {
+  float: left;
+}
+
+#menubar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menubar li a:hover {
+  background-color: #621111;
+}
+
+
+#notmenu {
+  list-style-type:circle;
+  color: #c82318;
+}
