@@ -109,13 +109,17 @@ header {
     font-size: 20px;
 }
 
+h2 {
+    color:#e8e88e;text-align: center;
+    font-size: 15px;
+}
 
 p {
     color:#60380a;text-align: center;
     font-size: 10px;
 }
 
-#pic {
+.pic {
     width: 50%; border-radius: 15px;
     display: block;
     margin-left: auto;
