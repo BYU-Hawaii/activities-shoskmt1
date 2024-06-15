@@ -1,0 +1,171 @@
+/* General Styles */
+body {
+    font-size: 12px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    background-color: #26737c;
+    color: #9ee2e0;
+    text-align: center;
+}
+
+.grid-container-body {
+    display: grid;
+    grid-template-areas: 
+        'header header header'
+        'sidebar sidebar sidebar'
+        'content content content'
+        'footer footer footer';
+    gap: 10px;
+    padding: 20px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.content {
+    grid-area: content;
+}
+
+.footer {
+    grid-area: footer;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: auto;
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 12px;
+    border: 2px solid #f6bd60;
+}
+
+.item1 {
+    grid-row: 1/4;
+    grid-column: 1/8;
+}
+
+.item2 {
+    grid-row: 2/4;
+    grid-column: 1/8;
+}
+
+.item3 {
+    grid-row: 3/3;
+    grid-column: 1/8;
+}
+
+.item4 {
+    grid-row: 4/6;
+    grid-column: 1/8;
+}
+
+.item5 {
+    grid-row: 1/3;
+    grid-column: 2/3;
+}
+
+.item6 {
+    grid-row: 1/3;
+    grid-column: 1/2;
+}
+
+/* Menu Bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #d66767;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #e30c69;
+}
+
+/* Page Setup */
+header {
+    text-align: center;
+    font-size: 40px;
+}
+
+.pic {
+    width: 100%; 
+    border-radius: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 20px;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        font-size: 22px;
+    }
+
+    button {
+        padding: 20px 40px;
+        font-size: 24px;
+    }
+}
+
+/* Chessboard Styles */
+#chessboard {
+    width: 320px;
+    height: 320px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin: 0 auto;
+}
+
+.square {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.white {
+    background-color: #f0d9b5;
+}
+
+.black {
+    background-color: #b58863;
+}
+
+.piece {
+    font-size: 32px;
+}
