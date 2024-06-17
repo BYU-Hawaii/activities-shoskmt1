@@ -6,9 +6,33 @@
     <title>Final Project</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <h1>Chess Game</h1>
-    <div id="chessboard"></div>
-    <script src="script.js"></script>
+<body class="grid-container-body">
+    <header class="header"><a href="home.html">GAMES</a></header>
+    <section class="sidebar">
+        <nav>
+            <ul>
+                <li><a href="feedback.html">Feedback</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="additional.html">More Content</a></li>
+            </ul>
+        </nav>
+    </section>
+    <main class="content">
+        <div class="grid-container">
+            <div class="board" id="board">
+                <div class="cell" data-row="0" data-col="0"></div>
+                <div class="cell" data-row="0" data-col="1"></div>
+                <div class="cell" data-row="0" data-col="2"></div>
+                <div class="cell" data-row="1" data-col="0"></div>
+                <div class="cell" data-row="1" data-col="1"></div>
+                <div class="cell" data-row="1" data-col="2"></div>
+                <div class="cell" data-row="2" data-col="0"></div>
+                <div class="cell" data-row="2" data-col="1"></div>
+                <div class="cell" data-row="2" data-col="2"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">&copy; 2024 GAMES</footer>
+    <script src="script/script.js"></script>
 </body>
 </html>
