@@ -7,32 +7,40 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="grid-container-body">
-    <header class="header"><a href="home.html">GAMES</a></header>
+    <a href="index.html"><img class="pic3" src="images/logo1.png" alt="logo"></a>
     <section class="sidebar">
         <nav>
             <ul>
-                <li><a href="feedback.html">Feedback</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="additional.html">More Content</a></li>
+                <a href="game.html"><img class="pic2" src="images/game.png" alt="logo"></a>
+                <a href="about.html"><img class="pic2" src="images/about.png" alt="logo"></a>
+                <a href="feedback.html"><img class="pic2" src="images/feedback.png" alt="logo"></a>
+                <a href="more.html"><img class="pic2" src="images/more.png" alt="logo"></a>
             </ul>
         </nav>
     </section>
     <main class="content">
-        <div class="grid-container">
+        <div class="container">
+            <h1>Tic-Tac-Toe</h1>
             <div class="board" id="board">
-                <div class="cell" data-row="0" data-col="0"></div>
-                <div class="cell" data-row="0" data-col="1"></div>
-                <div class="cell" data-row="0" data-col="2"></div>
-                <div class="cell" data-row="1" data-col="0"></div>
-                <div class="cell" data-row="1" data-col="1"></div>
-                <div class="cell" data-row="1" data-col="2"></div>
-                <div class="cell" data-row="2" data-col="0"></div>
-                <div class="cell" data-row="2" data-col="1"></div>
-                <div class="cell" data-row="2" data-col="2"></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+                <div class="cell" data-cell></div>
+            </div>
+            <div class="message" id="message">
+                <div class="winner-message" id="winnerMessage">
+                    <span id="winner"></span> wins!
+                </div>
+                <button id="restartButton">Restart</button>
             </div>
         </div>
+        <script src="script.js"></script>
     </main>
     <footer class="footer">&copy; 2024 GAMES</footer>
-    <script src="script/script.js"></script>
 </body>
 </html>
