@@ -11,18 +11,20 @@ body {
 .grid-container-body {
     display: grid;
     grid-template-areas: 
-        'header header header'
-        'sidebar sidebar sidebar'
-        'content content content'
-        'footer footer footer';
+        'header'
+        'sidebar'
+        'content'
+        'footer';
     gap: 10px;
     padding: 20px;
 }
 
 .header {
     grid-area: header;
-    text-decoration: none;
-    color: #9ee2e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 
 .sidebar {
@@ -103,6 +105,39 @@ header {
     height:50;
 }
 
+/*game code*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#options {
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    margin: 0 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
 @media (min-width: 768px) {
     body {
         font-size: 20px;
@@ -123,51 +158,4 @@ header {
         padding: 20px 40px;
         font-size: 24px;
     }
-}
-
-
-
-.container {
-    text-align: center;
-}
-
-h1 {
-    margin-bottom: 20px;
-}
-
-.board {
-    display: grid;
-    grid-template-columns: repeat(3, 100px);
-    grid-template-rows: repeat(3, 100px);
-    gap: 10px;
-    margin-bottom: 20px;
-}
-
-.cell {
-    width: 100px;
-    height: 100px;
-    background-color: #fff;
-    border: 2px solid #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2rem;
-    cursor: pointer;
-}
-
-.message {
-    display: none;
-    flex-direction: column;
-    align-items: center;
-}
-
-.winner-message {
-    margin-bottom: 10px;
-    font-size: 1.5rem;
-}
-
-button {
-    padding: 10px 20px;
-    font-size: 1rem;
-    cursor: pointer;
 }
