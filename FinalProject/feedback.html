@@ -21,13 +21,28 @@
         </nav>
     </section>
     <main class="content">
-        <div class="grid-container">
-            <div class="grid-item item1">
-                <img class="pic" src="images/chess-6872239_640.jpg" alt="img1">
-                <a href="game.html"><img src="images/games.png" alt="play botton" style="width:50px;height:50px;"></a>
-            </div>
-        </div>
-    </main>
+        <form id="registrationForm">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <div class="feedback" id="usernameFeedback"></div>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <div class="feedback" id="emailFeedback"></div>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="feedback" id="passwordFeedback"></div>
+    
+            <label for="phone">Phone Number:</label>
+            <input type="phone" id="phone" name="phone" required>
+            <div class="feedback" id="phoneFeedback"></div>
+    
+            <button type="submit">Send</button>
+            <div class="feedback valid-feedback" id="registrationFeedback"></div>
+        </form>
+    
+        <script src="scripts/script.js"></script>
     <footer class="footer">&copy; 2024 GAMES</footer>
 </body>
 </html>
